@@ -6,6 +6,10 @@ namespace Composer\Autoload;
 
 class ComposerStaticInitc3a7659bfb37227c06acc9c9d468b1b6
 {
+    public static $files = array (
+        'b761451e12d31d87aa72100b7767b0d7' => __DIR__ . '/..' . '/getivy/magento-2/registration.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
         'T' => 
         array (
@@ -18,6 +22,10 @@ class ComposerStaticInitc3a7659bfb37227c06acc9c9d468b1b6
         'M' => 
         array (
             'Monolog\\' => 8,
+        ),
+        'E' => 
+        array (
+            'Esparksinc\\IvyPayment\\' => 22,
         ),
     );
 
@@ -33,6 +41,10 @@ class ComposerStaticInitc3a7659bfb37227c06acc9c9d468b1b6
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
+        ),
+        'Esparksinc\\IvyPayment\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/getivy/magento-2',
         ),
     );
 

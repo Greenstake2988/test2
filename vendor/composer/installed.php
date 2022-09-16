@@ -1,7 +1,7 @@
 <?php return array(
     'root' => array(
-        'name' => '__root__',
-        'pretty_version' => '1.0.0+no-version-set',
+        'name' => 'green/test',
+        'pretty_version' => '1.0.0',
         'version' => '1.0.0.0',
         'reference' => NULL,
         'type' => 'library',
@@ -10,8 +10,17 @@
         'dev' => true,
     ),
     'versions' => array(
-        '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
+        'getivy/magento-2' => array(
+            'pretty_version' => '1.0.4',
+            'version' => '1.0.4.0',
+            'reference' => 'c9fb6c5040a5db5c86e13b4635580e08fb753742',
+            'type' => 'magento2-module',
+            'install_path' => __DIR__ . '/../getivy/magento-2',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'green/test' => array(
+            'pretty_version' => '1.0.0',
             'version' => '1.0.0.0',
             'reference' => NULL,
             'type' => 'library',

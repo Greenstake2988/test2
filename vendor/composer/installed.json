@@ -1,6 +1,47 @@
 {
     "packages": [
         {
+            "name": "getivy/magento-2",
+            "version": "1.0.4",
+            "version_normalized": "1.0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/getivy/magento-2.git",
+                "reference": "c9fb6c5040a5db5c86e13b4635580e08fb753742"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/getivy/magento-2/zipball/c9fb6c5040a5db5c86e13b4635580e08fb753742",
+                "reference": "c9fb6c5040a5db5c86e13b4635580e08fb753742",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~7.3.0||~7.4.0||~8.1.0"
+            },
+            "time": "2022-09-16T15:29:26+00:00",
+            "type": "magento2-module",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Esparksinc\\IvyPayment\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "Ivy Payment Method",
+            "support": {
+                "issues": "https://github.com/getivy/magento-2/issues",
+                "source": "https://github.com/getivy/magento-2/tree/v1.0.4"
+            },
+            "install-path": "../getivy/magento-2"
+        },
+        {
             "name": "monolog/monolog",
             "version": "2.0.2",
             "version_normalized": "2.0.2.0",
