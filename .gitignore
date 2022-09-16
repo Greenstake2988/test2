@@ -1,0 +1,5 @@
+#Ignora archivos dela Mac
+.DS_store
+
+#Ignora toda la capeta vendor que tiene todos los paquetes
+vendor
